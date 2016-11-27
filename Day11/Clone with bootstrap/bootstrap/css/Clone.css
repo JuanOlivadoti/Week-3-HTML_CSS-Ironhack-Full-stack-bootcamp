@@ -1,0 +1,162 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+</style>
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+h1 .brand{
+	text-transform: uppercase;
+	color:#000;
+	font-size: 32px;
+	margin-top: 25px;
+	margin:0px;
+	font-weight: bolder;
+}
+h1 .brand:hover{
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+
+}
+ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.navbar-nav>li a, h1 .brand	{
+	padding: 19px 10px;
+}
+
+.nav{
+	margin:15px 0;
+}
+
+.imagen-top{
+	width:100%;
+	-webkit-filter: 
+	grayscale(100%);
+	filter: grayscale(100%);
+	position:relative;
+}
+.dog-img{
+	background:url(http://cdn.demo.fabthemes.com/revera/files/2013/08/wallpaper-939317-780x400.jpg) center center no-repeat;
+	
+}
+
+#carousel-example-generic{
+	max-width: 550px;
+}
+.navbar-default{
+	margin-bottom: 0;
+}
+
+.webinterface{
+	background-color:#ed564b;
+	color:#fff;
+	padding:40px 0;
+	border-top: 5px solid #f96b61;
+	border-bottom: 5px solid #f96b61;
+}
+
+.homewidget{
+	text-align: center;
+}
+.homewidget h3{
+	font-size:24px;
+	font-weight: bold;
+}
+.homewidget span{
+	border:5px solid #fff;
+	background:transparent;
+	width:70px;
+	height:70px;
+	border-radius:35px;
+	display:block;
+	line-height:65px;
+	text-align:center;
+	margin:0px auto;
+	font-size:20px
+}
+.section-wide{
+	margin-top:40px;
+}
+.section-title{
+	padding:20px;
+}
+.section-title h2, .section-title p{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.section-title h2 {
+	color: #000;
+	font-size:24px;
+}
+.section-title p{
+	color: #aaa;
+	border-bottom: 1px solid #dfdfdf;
+	padding-bottom: 20px;
+}
+.image-small{
+	width:100%;
+}
+
+.thumb h3{
+	font-size: 14px;
+}
+
+.postbox h3{
+	color:#000;
+	font-size:16px;
+	font-weight: bold;
+}
+.postbox span a{
+	color:#f4473a;
+}
+.postbox .span{
+	color: #444;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: right;
+}
+.postbox{
+	color:#606060;
+	margin:40px 0;
+}
+.almost-end{
+	background-color: #3B3B3B;
+	border-top:5px solid #f96b61;
+	color:#aaa;
+	padding: 20px 0 40px 0;
+}
+.almost-end h3{
+	color:#fff;
+	font-size: 16px;
+	padding:10px 0;
+	margin: 20px 0 10px 0 ;
+}
+.almost-end ul{
+	margin: 0;
+	padding: 0;
+}
+.almost-end ul li{
+	display:block;
+	padding: 7px 0;
+	border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+footer{
+	background-color: #292929;
+}
+footer a{
+	color:#eee;
+	font-weight: 400;
+	font-size: 12px;
+}
+.Copyright{
+	padding: 10px 0;
+}

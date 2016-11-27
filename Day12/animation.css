@@ -1,0 +1,57 @@
+/*.circle{
+	background-color: #09B8B1;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	index-left: 250px;
+	position: absolute;
+	top:200px;
+	left: 50%;
+	animation-name: fly;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction:normal;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+}
+
+@keyframes fly{
+	from {
+		transform: rotate(0deg) 
+							transalate(-150px);
+	}
+	to { 
+	transform: rotate(360deg)
+						translate(-150px);
+	 }
+}*/
+
+.circle {
+  background-color: #09b8c1;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  index-left: 250px;
+  position: absolute;
+    top: 200px;
+    left: 50%;
+  animation-name: fly;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+
+@keyframes fly {
+  from {
+    transform: rotate(0deg)
+                   translate(-150px);
+  }
+  to {
+    transform: rotate(360deg)
+                   translate(-150px);
+  }
+}

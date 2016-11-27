@@ -1,0 +1,15 @@
+body {
+	background-color: #E0E0E0; /* Por si el nevegador no reconoce el RGBa */
+	background-color: rgba(0,150,0, 0.7);
+	/*background: url(http://all4desktop.com/data_images/original/4238051-background.jpg) no-repeat;
+	background-size: cover;
+	background-position: +10% -10%;*/
+}
+
+.gradient{
+	height: 600px;
+	width: 600px;
+	background:#466368;
+	background: linear-gradient(to right, #0aa, #fff, #fff,#a00);
+
+}

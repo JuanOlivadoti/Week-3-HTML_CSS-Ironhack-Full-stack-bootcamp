@@ -1,0 +1,21 @@
+body{
+	background: linear-gradient( #0a0, #0bb); 
+}
+
+.element{
+	background-color:#a5a;
+	background: url(http://img12.deviantart.net/65e4/i/2013/003/6/6/png_floating_terrain_by_moonglowlilly-d5qb58m.png) center center no-repeat;
+	/*background-position: 50px 0px;*/
+	height:1000px;
+	width:1000px;
+	opacity: 0.2;
+	transition-property: transform;
+	transition-delay: 0s;
+	transition-timing-function: linear;
+}
+.element:hover{
+	@keyframe fly{
+		0%
+
+	}
+}

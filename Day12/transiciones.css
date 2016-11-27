@@ -1,0 +1,11 @@
+.action-button{
+	transition-property: background, color;
+	transition-duration: 0.8s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+	color:red;
+}
+.action-button:hover{
+	background: #FF7B29;
+	color:blue;
+}
